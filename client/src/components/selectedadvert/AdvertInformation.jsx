@@ -73,7 +73,7 @@ export default class AdvertInformation extends Component {
         <ul className="list-group mt-3">
           <li className="list-group-item active">Energy</li>
           <li className="list-group-item">
-            Energy Label: {advert.energyLabel}
+            Tenant-No: {advert.energyLabel}
           </li>
           {advert.heating ? (
             <li className="list-group-item">Heating: {advert.heating}</li>

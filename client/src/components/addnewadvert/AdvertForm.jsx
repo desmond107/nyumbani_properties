@@ -51,9 +51,9 @@ export default class AdvertForm extends Component {
           <div className="row mb-3 mt-3">
             <label htmlFor="price" className="col-12 col-md-6">
               Price - {this.props.formValues.isForSale
-                ? "EUR"
+                ? "KSH"
                 : this.props.formValues.isForRent
-                ? "EUR/month"
+                ? "KSH/month"
                 : ""} <span className="text-danger">*</span>
               <input
                 type="number"
@@ -221,7 +221,7 @@ export default class AdvertForm extends Component {
               />
             </label>
             <label htmlFor="energyLabel" className="col-6 col-md-3">
-              Energy Label
+              Tenant-no
               <input
                 type="text"
                 className="form-control"
